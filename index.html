@@ -1,0 +1,34 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <script src="js/myFunctions.js"></script>
+    </head>
+    <body>
+
+        <div class='navbar'>
+            <div class='dropdown' id='webpage-dropdown' onmouseleave="closeAll()">
+                <button onmouseover='webPageDropDown()'>Webpage</button>
+                <ul id='webpageSelection' style="display: none;"> 
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class='dropdown' id='discipline-dropdown' onmouseleave="closeAll()">
+                <button onmouseover='disciplineDropDown()'>Discipline</button>
+                <ul id='disciplineSelection' style="display: none;">
+                    <li><a href="#">MTB</a></li>
+                    <li><a href="#">Road</a></li>
+                    <li><a href="#">Dirt</a></li>
+                </ul>
+            </div>
+            <div class='dropdown' id='user-menu' onmouseleave="closeAll()">
+                <button onmouseover="userDropDown()">User Menu</button>
+                <ul id="userSelection" style="display:none;">
+                    <li><a href="signup.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
